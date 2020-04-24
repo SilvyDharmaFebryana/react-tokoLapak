@@ -1,10 +1,11 @@
 import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom'
 
+import './views/components/Button/Button.css'
 import './App.css';
 
 import ButtonUI from './views/components/Button/Button'
-import './views/components/Button/Button.css'
+
 
 
 class App extends React.Component {
